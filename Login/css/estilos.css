@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,300;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Krub', sans-serif;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sign-in-with{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.login-app
+{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.login-app .sign-in-with .icono{
+    display: flex;
+    background-color:rgb(37, 87, 212) ;
+    border-radius: 50%;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 12rem;
+}
+
+.or{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+     font-size: 2rem;
+     font-weight: 200;
+     color: gray;
+}
+
+.formulario{
+    width: min(60rem, 100%);
+    margin:0 auto;
+    border-radius: .5rem;
+}
+
+.formulario input{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.seccion-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.boton a{
+    background-color:rgb(37, 87, 212);
+    text-decoration: none;
+    color: white;
+    padding: .5rem 2rem;
+    border-radius: .3rem;
+    box-shadow: .1rem;
+}
+
+.texto-registrar{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.texto-registrar a{
+    text-decoration: none;
+    font-weight: bold;
+    color:red
+}
+
+@media (max-width:768px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+    } 
+    
+}
+
